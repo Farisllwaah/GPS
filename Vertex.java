@@ -1,5 +1,6 @@
 /**
- * drk2130
+ * Vertex
+ * Dylan Kario
  * 
  * This class simulates a vertex, a city, in the custom graph DS GPSGraph.
  */

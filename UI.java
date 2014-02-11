@@ -1,5 +1,6 @@
 /**
- * drk2130
+ * UI
+ * Dylan Kario
  * 
  * This class allows provides a user interface for loading new city info, searching cities, and generating optimized paths.
  */

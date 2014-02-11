@@ -60,7 +60,7 @@ Dylan Kario :: November 2013
 
 
 ### 6. Runtimes
-  Note: O(|V|+|E|) = O(|V|) because this is a sparse graph, so E is roughly on the order of V.
+  Note: O(|V|+|E|) = O(|V|) because this is a sparse graph, so E is roughly on the order of V.  
   a. parse(): O(|V|) 							// Reaches the data for each vertex exactly once  
   b. makeAdjList(): O(|V|+|E|) = O(|V|)		// Iterates through every vertex exactly once, constructing each edge; only operates one time per vertex and edge  
   c. searchState(): O(|V|) 					// Searches each vertex (O(1) per search) and checks its 'state' variable; worst-case searches all vertices  

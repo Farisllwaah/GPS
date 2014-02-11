@@ -1,5 +1,6 @@
 /** 
- * drk2130
+ * GPSGraph
+ * Dylan Kario
  * 
  * This custom graph DS contains a lookup table for all of its Vertices and an adjacency list that lists 
  * the Edges for each vertex. It also contains methods for searching this data and calculating optimized paths.

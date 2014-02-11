@@ -1,7 +1,8 @@
 /**
- * drk2130
+ * Edge
+ * Dylan Kario
  * 
- * This class simulates an edge, a traversable path, between two vertices in the custom graph DS MyGraphmap13.
+ * This class simulates an edge, a traversable path, between two vertices in the custom graph DS GPSGraph.
  */
 
 package gps;

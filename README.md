@@ -61,11 +61,11 @@ Dylan Kario :: November 2013
 
 ### 6. Runtimes
   Note: O(|V|+|E|) = O(|V|) because this is a sparse graph, so E is roughly on the order of V.
-  a. parse(): O(|V|) 							// Reaches the data for each vertex exactly once
-  b. makeAdjList(): O(|V|+|E|) = O(|V|)		// Iterates through every vertex exactly once, constructing each edge; only operates one time per vertex and edge
-  c. searchState(): O(|V|) 					// Searches each vertex (O(1) per search) and checks its 'state' variable; worst-case searches all vertices
-  d. searchCity(): O(|V|) 					// Similar
-  e. dijkstra(): O(|V|+|E|) = O(|V|) 			// Only uses O(1) operations, but on each vertex and edge
-  f. nClosest(): O(|V|+|E|) = O(|V|) 			// Calls dijkstra in O(|V|), then runs n (up to O(|V|) calls to heap.poll() (O(1)); still at O(|V|)
-  g. shortestPath(): O(|V|+|E|) = O(|V|) 		// Main determiner is dijkstra()
+  a. parse(): O(|V|) 							// Reaches the data for each vertex exactly once  
+  b. makeAdjList(): O(|V|+|E|) = O(|V|)		// Iterates through every vertex exactly once, constructing each edge; only operates one time per vertex and edge  
+  c. searchState(): O(|V|) 					// Searches each vertex (O(1) per search) and checks its 'state' variable; worst-case searches all vertices  
+  d. searchCity(): O(|V|) 					// Similar  
+  e. dijkstra(): O(|V|+|E|) = O(|V|) 			// Only uses O(1) operations, but on each vertex and edge  
+  f. nClosest(): O(|V|+|E|) = O(|V|) 			// Calls dijkstra in O(|V|), then runs n (up to O(|V|) calls to heap.poll() (O(1)); still at O(|V|)  
+  g. shortestPath(): O(|V|+|E|) = O(|V|) 		// Main determiner is dijkstra()  
 	h. addEdge(): O(1) 							// Getting from HT and incrementing in/out counts all run in constant time
